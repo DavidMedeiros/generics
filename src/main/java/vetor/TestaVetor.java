@@ -33,7 +33,7 @@ public class TestaVetor {
 		aluno5 = new Aluno("Bianca", 9.5);
 		aluno6 = new Aluno("Ana", 10.0);
 		
-		Comparator<Aluno> comparadorMinimo = new Comparator<Aluno>() {
+		comparadorMinimo = new Comparator<Aluno>() {
 
 			@Override
 			public int compare(Aluno o1, Aluno o2) {
@@ -48,7 +48,7 @@ public class TestaVetor {
 			
 		};
 		
-		Comparator<Aluno> comparadorMaximo = new Comparator<Aluno>() {
+		comparadorMaximo = new Comparator<Aluno>() {
 
 			@Override
 			public int compare(Aluno o1, Aluno o2) {
